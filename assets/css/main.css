@@ -1,0 +1,108 @@
+body{
+	padding: 0;
+	margin: 0 auto;
+	overflow-x: hidden; /*limpia la imagen dentro del navegador, es recomendable*/
+}
+
+.navbar{
+	background-color: rgb(#76278f, 255, 255, 0.5);
+	width: 100%;
+	height: 65px;
+	padding: 20px;
+	position: fixed;
+	z-index: 1;
+}
+
+.menu{
+	display: flex;
+	margin-top: -70px;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li a{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logo{
+	width: 55px;
+	height: 40px;
+	margin-top: 10px;
+	/*padding: 30px;
+	margin: 0 auto;*/
+}
+
+ul li a:hover{
+	color: #ff00bf;
+}
+
+.video{
+	max-width: 100%;
+	height: 100%;
+}
+
+.video-cont{ /*el hidden permite q no se mueva el video de su contenedor*/ 
+	overflow: hidden;
+}
+
+.video-cont video{
+	max-width: 100%;
+	position: relative;
+	top: 30px;
+	width: 100%;
+	background: linear-gradient(#76278f, #2b1e66);
+	margin-top: -30px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	overflow: auto;
+	background-color: #fff;
+	width: 463px;
+	height: 320px;
+	top: 200px;
+	right: 0;
+	color: #352384;
+	padding: 30px;
+}
+
+h5, h2, input{
+	margin-left: 20px;
+}
+
+.titulo-tarjeta{
+	margin-top: -20px;
+}
+
+
+input{
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #728099;
+	margin-left: 20px;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
