@@ -13,6 +13,15 @@ body{
 	z-index: 1;
 }
 
+.newNav {
+	background-color: red;
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	position: fixed;
+	z-index: 1;
+}
+
 .menu{
 	display: flex;
 	margin-top: -70px;
@@ -50,7 +59,7 @@ ul li a:hover{
 	height: 100%;
 }
 
-.video-cont{ /*el hidden permite q no se mueva el video de su contenedor*/ 
+.video-cont{ /*el hidden permite q no se mueva el video de su contenedor, y q no se vea más grande*/ 
 	overflow: hidden;
 }
 
